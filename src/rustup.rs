@@ -131,6 +131,7 @@ pub fn install_component(
         .wrap_err_with(|| format!("couldn't install the `{component}` component"))
 }
 
+#[allow(dead_code)]
 pub enum Component<'a> {
     Installed(&'a str),
     Available(&'a str),

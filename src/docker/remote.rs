@@ -1,3 +1,5 @@
+#![allow(static_mut_refs)]
+
 use std::collections::BTreeMap;
 use std::io::{self, BufRead, Read, Write};
 use std::path::{Path, PathBuf};
